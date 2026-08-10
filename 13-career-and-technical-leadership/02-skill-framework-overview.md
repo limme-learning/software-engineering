@@ -86,10 +86,6 @@ Every line is checkable. At quarter end there is either a charter or there is no
 | **Formal training / certification first** | Shared vocabulary; useful in orgs where a certification is a gate | Teaches the framework, not the judgment; risk log stays theoretical until tested | As a supplement when the org requires the credential, never as the primary vehicle |
 | **Lateral move into a PM or PO role** | Deepest possible exposure to one cluster | Depth decays quickly; return path to engineering is often harder than expected | When the intent is genuinely to change discipline, not to become T-shaped |
 
-## Why This Still Matters Through 2030
-
-Frameworks for engineering career ladders will keep getting rewritten, but the underlying decomposition is stable because it follows the structure of how software organisations actually divide accountability: someone must answer for whether it works, whether the team can sustain it, whether it arrives, and whether it was worth building. Those four questions do not merge, and no tooling change removes any of them. The engineer who can answer all four — and who knows which of the four a given room is really asking about — stays relevant regardless of what the ladder is called this year.
-
 ---
 
 **Next:** [`03-expert-developer-skills.md`](03-expert-developer-skills.md) — the vertical stroke in detail.

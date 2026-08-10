@@ -128,10 +128,6 @@ Three incidents, three named checklist lines, three specific control changes. Th
 | **Two deep, four solid (the realistic T)** | Enough authority to lead design review across a product; still credible when the stack shifts | Takes roughly 3–5 years of deliberate effort; requires saying no to work outside the plan | The default target for a technical lead in insurance, banking, or enterprise SaaS |
 | **Tool-list breadth (framework collecting)** | Interviews well; feels productive | Fails exactly where this article's incidents failed — the failure surfaces are conceptual, not tool-specific | Avoid; if a new tool is needed, learn it inside a sub-domain you already understand |
 
-## Why This Still Matters Through 2030
-
-As more routine implementation gets generated rather than typed, the value of knowing a framework's API surface falls and the value of knowing its failure surfaces rises. Every incident in this article would still have shipped if the code had been generated — the tenant predicate would still have been missing, the DST boundary still untested, the migration still irreversible — because each was a judgment failure about correctness boundaries, not a typing failure. The six sub-domains here are organised around exactly those judgments, which is why the list will age better than any list of tools.
-
 ---
 
 **Next:** [`04-team-lead-skills.md`](04-team-lead-skills.md) — the first move outward along the horizontal stroke.

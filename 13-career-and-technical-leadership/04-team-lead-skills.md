@@ -116,10 +116,6 @@ The insurer's senior engineer, two sprints later, having recognised the pattern.
 | **Informal lead (no title)** | Low risk, reversible, tests the fit before either side commits | No authority in disputes; effort is often invisible at performance-review time | The standard entry point — pair it with a written agreement on what success looks like so the work is visible |
 | **Hero senior engineer (no leadership)** | Highest individual output; feels good and gets praised | Caps team throughput at one person's attention; single point of failure; blocks everyone else's growth | Legitimate only for short, genuinely critical pushes — never as a steady state |
 
-## Why This Still Matters Through 2030
-
-Automation is compressing the value of individual implementation speed faster than it is compressing anything else in this knowledge base. When the team's raw ability to produce code stops being the constraint, the constraints that remain are the ones a lead owns: whether the right thing is being built, whether the quality bar holds when nobody is watching, whether people are growing fast enough to stay, and whether knowledge lives in more than one head. A team of strong individuals with no multiplier will keep producing more code and less progress — and that gap is exactly what a technical lead is paid to close.
-
 ---
 
 **Next:** [`05-project-management-skills.md`](05-project-management-skills.md) — making the work land on a date you can defend.

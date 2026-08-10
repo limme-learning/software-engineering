@@ -236,8 +236,4 @@ kubectl rollout status deployment/cards --timeout=5m
 | **Big-bang maintenance window** | Simple mental model; matches legacy change processes | Long outage, high stress, batch of changes, unrehearsed rollback | Only for genuinely non-rolling changes (major DB version upgrade) — the scenario above shows the cost |
 | **Deploy straight to prod, no staging** | Fastest path | No migration dry-run, no smoke test on prod-shaped data | Never in a regulated system |
 
-## Why This Still Matters Through 2030
-
-Regulatory expectations around operational resilience — DORA in the EU, equivalent supervisory guidance elsewhere — are converging on the ability to demonstrate that a change can be reversed quickly and that its blast radius was controlled. That is a direct description of feature flags, immutable artifact promotion, and expand/contract migrations. These techniques were adopted for engineering reasons and are becoming compliance evidence, which makes them durable regardless of how the underlying platforms evolve. The delivery mechanism will keep changing — GitOps controllers, progressive-delivery operators, whatever follows them — but the invariant holds: build once, promote the same artifact, keep every schema state backward compatible, and always separate the deploy from the release.
-
 → Next: [07-observability.md](07-observability.md) · Related: [../06-database-strategies/06-schema-migrations-in-a-regulated-environment.md](../06-database-strategies/06-schema-migrations-in-a-regulated-environment.md) · [../10-example-code/spring-boot/liquibase-changelog-example.md](../10-example-code/spring-boot/liquibase-changelog-example.md)

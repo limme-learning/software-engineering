@@ -224,8 +224,4 @@ void get_policyBelongingToAnotherBrokerage_returns404() throws Exception {
 | **Pair programming instead of async review** | Highest-bandwidth review; knowledge transfer in real time | Consumes two people concurrently; the approval record is weaker unless documented | Excellent for complex or high-risk changes; document the pairing to preserve the control record |
 | **Post-merge review** | Maximum throughput | Defect is already in `main`; unacceptable evidence trail for regulated changes | Only for internal tooling with no production exposure |
 
-## Why This Still Matters Through 2030
-
-Review is shifting from defect-detection toward intent-verification, and that shift makes it more important rather than less. As a growing share of code arrives already written — by generation tools, by scaffolding, by refactoring automation — the reviewer's question changes from "is this correct syntax and structure?" to "is this the right thing to do, and does it fail safely?" Machine-generated code is characteristically plausible: idiomatic, well-formatted, well-named, and entirely capable of omitting a tenant scope on a query. Meanwhile control frameworks continue to require demonstrable human approval of changes to regulated systems, and that requirement is not one automation can satisfy. The durable practice is therefore the same one that has always worked: keep changes small enough that a human can genuinely read them, route them to someone who understands that area, and let machines handle everything mechanical.
-
 → Next: [10-definition-of-done.md](10-definition-of-done.md) · Related: [04-linting-formatting-hooks.md](04-linting-formatting-hooks.md) · [../01-core-concepts/05-security-by-default.md](../01-core-concepts/05-security-by-default.md)

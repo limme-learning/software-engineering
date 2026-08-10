@@ -191,8 +191,4 @@ src/
 | **Monorepo** (Turborepo, Nx, Gradle multi-project) | Shared types between frontend and backend, atomic cross-cutting changes, one CI story | Needs build caching and CODEOWNERS discipline to stay fast | One product, several teams, shared contracts — common for enterprise suites |
 | **Polyrepo** | Hard team boundaries, independent release cadence | Contract drift, cross-cutting changes span many PRs | Independent services with separate release calendars, partner-facing components |
 
-## Why This Still Matters Through 2030
-
-Modular monoliths have decisively displaced default-microservices as the starting architecture, and the modular monolith *is* feature-first structure with enforced boundaries — the folder tree becomes the seam along which you can later extract a service, if you ever need to. That makes structure a reversibility decision, not an aesthetic one. It also increasingly matters for AI-assisted development: a coherent feature folder is a coherent context window, while a layer-first tree forces any assistant — human or otherwise — to reconstruct the business concept from fragments scattered across five directories.
-
 → Next: [04-linting-formatting-hooks.md](04-linting-formatting-hooks.md) · Related: [../03-architecture/02-hexagonal-architecture.md](../03-architecture/02-hexagonal-architecture.md) · [../03-architecture/04-microservices-vs-monolith.md](../03-architecture/04-microservices-vs-monolith.md)

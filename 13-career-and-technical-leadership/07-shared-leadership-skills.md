@@ -87,10 +87,6 @@ The second meeting with the logistics customer, structured skill by skill.
 | **Pure diplomacy (no hard numbers, relationship-first)** | Preserves the relationship in the moment | Erodes trust once the vagueness is noticed; produces commitments nobody can hold you to | Never as the primary mode — acceptable only as an opening two sentences before the substance |
 | **Escalate and let a PM/PO front the conversation** | Removes the risk of a technical leader mishandling the room | The technical judgment gets diluted through a second translation layer; slower | Legitimate while these skills are still developing — not a permanent substitute for building them |
 
-## Why This Still Matters Through 2030
-
-As the mechanical work of producing software gets faster and cheaper, more of an engineer's actual time shifts toward exactly this kind of conversation — because the bottleneck moves from "can we build it" to "should we, for whom, and can we say so credibly to the people funding it." A technical leader with excellent judgment and no ability to convey it in decision order gets overridden by someone with worse judgment and better delivery, every time, in every organisation that has to make a room full of non-engineers act on an engineering call. This cluster is what keeps that from happening to you.
-
 ---
 
 **Next:** [`08-the-eighteen-month-roadmap.md`](08-the-eighteen-month-roadmap.md) — sequencing all five clusters into a plan with dates.

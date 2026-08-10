@@ -133,10 +133,6 @@ Nobody had to be clever. The question "what do we need from outside this room, a
 | **Agile-only (backlog and sprint goals, no programme layer)** | Fast feedback; minimal overhead; strong for product discovery | Blind to long-lead external dependencies — a sprint board has nowhere to put an eight-week certificate | Product-team work with few external dependencies and a movable date |
 | **Hybrid (agile execution inside a milestone and RAID frame)** | Keeps team-level agility while making external commitments visible | Requires the lead to genuinely work both layers rather than only the comfortable one | The realistic default for enterprise SaaS and most insurance delivery |
 
-## Why This Still Matters Through 2030
-
-The parts of delivery that fail are not the parts that get faster. Tooling has compressed how long it takes to build a thing; it has not compressed how long a certificate authority takes to issue a certificate, how long a vendor takes to provision a sandbox, or how long a security review takes to schedule. As implementation time shrinks, the proportion of a delivery date that is coordination rather than construction rises — which makes the dependency map, the named risk owner, and the honest status colour *more* decisive over the next five years, not less.
-
 ---
 
 **Next:** [`06-product-owner-skills.md`](06-product-owner-skills.md) — deciding whether the thing is worth building at all.

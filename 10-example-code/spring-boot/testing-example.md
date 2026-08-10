@@ -325,8 +325,4 @@ tasks.named("check") { dependsOn(testing.suites.named("integrationTest")) }
 | **Cross-tenant assertions on every scoped repository method** | Turns IDOR into a compile-time-adjacent guarantee | Requires fixtures for at least two tenants, which most legacy suites lack | Mandatory for any multi-tenant data access |
 | **Mocking the repository in a "unit test" of the service layer** | Fast, no infrastructure | Verifies nothing about real query behaviour; gives false confidence | Acceptable only when the service logic under test has no DB interaction worth verifying |
 
-## Why This Still Matters Through 2030
-
-Testcontainers has removed the last good excuse for testing against a substitute engine — container startup cost, once the argument for H2, is now measured in a second or two and shared across a whole test class. That makes "test against the real thing" the cheap option rather than the expensive one, and the gap between what a suite verifies and what production actually does keeps closing as a result. The two guard patterns here — counting queries and asserting cross-tenant isolation — matter more, not less, as more code arrives generated: a scoped repository method and an unscoped one are syntactically almost identical, so the defence has to be a test that fails on the wrong one rather than a reviewer noticing it by eye.
-
 → Next: this is the final Spring Boot example. Related: [../../08-testing-strategies/02-unit-and-integration-testing.md](../../08-testing-strategies/02-unit-and-integration-testing.md) · [../../01-core-concepts/05-security-by-default.md](../../01-core-concepts/05-security-by-default.md) · [rest-api-crud-example.md](rest-api-crud-example.md)

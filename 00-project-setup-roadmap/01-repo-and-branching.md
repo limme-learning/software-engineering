@@ -123,8 +123,4 @@ Commit convention enforced in CI, not in a wiki page:
 | **GitFlow** | Supports several live versions simultaneously | Heavy merge cost, muddy history, slow integration | On-prem enterprise products where customers pin versions |
 | **Direct push to `main`** | Nothing | No review record, no approval evidence | Never in an enterprise — it fails the first control test |
 
-## Why This Still Matters Through 2030
-
-Branching is one of the few decisions that gets harder, not easier, to change over time — history is append-only and habits calcify. The industry has settled decisively on trunk-based development with feature flags because it is the only model that supports continuous delivery *and* produces the per-change approval evidence that regulators increasingly demand. As AI-assisted development raises commit volume, small reviewable units of change matter more, not less: a 400-line PR reviewed properly beats a 4,000-line one approved on faith, whoever or whatever wrote it.
-
 → Next: [02-environment-and-secrets.md](02-environment-and-secrets.md) · Related: [09-code-review-process.md](09-code-review-process.md) · [08-documentation-baseline.md](08-documentation-baseline.md)

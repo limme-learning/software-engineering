@@ -81,10 +81,6 @@ The platform team's team lead, fixing the month-four drop-off from the opening s
 | **Metrics without cadence (dashboards, no rhythm)** | Data exists if anyone looks | Nobody looks regularly enough to act before a trend becomes a crisis | Never sufficient alone — pair with at least the quarterly review |
 | **Cadence without metrics (rhythm, no numbers)** | Protects time; low risk of metric misuse | No objective signal when the cadence itself needs adjusting | Acceptable for small teams with high trust and a lead who is close enough to see problems directly |
 
-## Why This Still Matters Through 2030
-
-Faster shipping raises the cost of an unprotected cadence rather than lowering it: when a team can ship several times a day, the daily and weekly practices are what stop that speed from producing unreviewed risk and burned-out people. And the warning about velocity gets more urgent, not less, as more delivery data becomes automatically available — the temptation to rank people by an easily graphed number grows with the ease of graphing it. The discipline of using metrics for planning and never for ranking individuals is what keeps a fast-moving team's trust intact while everything around it accelerates.
-
 ---
 
 **Next:** [`10-the-first-thirty-days.md`](10-the-first-thirty-days.md) — starting the whole system from week one.

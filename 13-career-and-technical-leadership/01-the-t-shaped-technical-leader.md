@@ -103,10 +103,6 @@ Four strokes of the T on one piece of work. A pure specialist stops after step 1
 | **T-shaped technical leader** | Credible in both directions; no translation layer; durable across reorgs and stack changes | Slower depth accumulation than a pure IC; requires deliberate practice in three unfamiliar disciplines; easy to stall at shallow-in-everything | Regulated, multi-stakeholder delivery — the default for enterprise SaaS, insurance platforms, and bank transformation programmes |
 | **Sequential (deep first, then manage)** | Depth is banked before the switch; common and well-understood path | The switch is abrupt; leadership skills get learned live, on a real team, under delivery pressure | Works when the org offers a genuine tech-lead stepping stone rather than a straight jump to line management |
 
-## Why This Still Matters Through 2030
-
-The specific technologies in the vertical stroke will turn over — they always do, and the pace is not slowing as more of the routine implementation work gets automated. What does not turn over is the shortage of people who can hold a technical position and a delivery commitment and a customer argument in the same head, in the same meeting. As tooling absorbs more of the mechanical work of writing code, the differentiating skill shifts toward judgment: deciding what should be built, in what order, at what risk, and being able to defend that decision to engineers and executives with equal authority. That is the T, and it gets more valuable as the vertical stroke gets cheaper to rent.
-
 ---
 
 **Next:** [`02-skill-framework-overview.md`](02-skill-framework-overview.md) breaks the two strokes into five concrete skill clusters.

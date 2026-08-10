@@ -197,8 +197,4 @@ trim_trailing_whitespace = false
 | **Style guide document, enforced by humans** | No tooling | Inconsistent, slow, and it converts senior review time into whitespace commentary | Never; this is precisely the failure in the scenario above |
 | **Warnings tolerated in the build** | Feels pragmatic | Output becomes noise; real warnings go unread | Never — promote to error or delete the rule |
 
-## Why This Still Matters Through 2030
-
-The volume of generated code is rising sharply, and generated code is exactly what mechanical checks are best at policing: consistency, type-safety, unhandled promises, non-exhaustive switches. As more of a diff arrives pre-written, the reviewer's scarce attention has to go to intent, authorization, and failure paths — which only works if the machine has already absorbed everything mechanical. Strict type checking in particular keeps compounding in value: each flag you enable converts a class of runtime incident into a build failure, and that trade is always worth making in a system where a runtime incident means a failed payment or a rejected claim.
-
 → Next: [05-ci-pipeline.md](05-ci-pipeline.md) · Related: [09-code-review-process.md](09-code-review-process.md) · [../08-testing-strategies/01-the-testing-pyramid-revisited.md](../08-testing-strategies/01-the-testing-pyramid-revisited.md)

@@ -228,8 +228,4 @@ tasks.test {
 | **Self-hosted runners** | Access to internal networks and licensed test data; predictable cost at volume | You now operate and patch the runner fleet | Common in banking, where CI must reach internal services or PII-free test datasets behind the firewall |
 | **Shared staging DB for CI** | Cheap to set up | Cross-run interference; the root cause of most flake | Never — use Testcontainers so each job gets an isolated database |
 
-## Why This Still Matters Through 2030
-
-Pipeline speed is the control loop on every other engineering practice: small PRs, trunk-based development, and continuous delivery all depend on feedback arriving inside the developer's attention span. That constraint is human, so it will not relax as tooling improves. What is changing is CI's second role — as the evidence system. Signed provenance (SLSA attestations, SBOM generation, artifact signing) is moving from optional to expected in regulated sectors, and CI is where that evidence is produced. A pipeline that builds each artifact once, records what went into it, and gates on that record is already positioned for those requirements; one that rebuilds per environment is not.
-
 → Next: [06-cd-and-deployment.md](06-cd-and-deployment.md) · Related: [../08-testing-strategies/01-the-testing-pyramid-revisited.md](../08-testing-strategies/01-the-testing-pyramid-revisited.md) · [04-linting-formatting-hooks.md](04-linting-formatting-hooks.md)

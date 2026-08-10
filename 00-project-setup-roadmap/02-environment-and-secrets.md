@@ -155,8 +155,4 @@ export const env = parsed.data
 | **CI secrets only** (GitHub/GitLab) | Zero extra infrastructure | No rotation story, no runtime access, hard to audit at scale | Small internal tools; not for systems handling PII or payments |
 | **Committed config files** | — | Permanent history, guaranteed breach on leak | Never |
 
-## Why This Still Matters Through 2030
-
-Regulatory direction is one-way: DORA in the EU, evolving PCI-DSS 4.x requirements, and SOC 2 expectations all push toward demonstrable, auditable secret handling and short credential lifetimes. Meanwhile the attack surface keeps widening — more services, more CI systems, more third-party integrations, and now AI coding assistants with repository access. The durable engineering answer has not changed and will not: secrets live outside the code, scoped per environment, rotated on a schedule, validated at startup, and scanned for continuously.
-
 → Next: [03-project-structure.md](03-project-structure.md) · Related: [../01-core-concepts/05-security-by-default.md](../01-core-concepts/05-security-by-default.md) · [../04-security-and-authentication/06-compliance-standards-pci-dss-gdpr-soc2.md](../04-security-and-authentication/06-compliance-standards-pci-dss-gdpr-soc2.md)

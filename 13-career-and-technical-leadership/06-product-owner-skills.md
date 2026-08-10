@@ -111,10 +111,6 @@ Compare with the counterfactual. The team implements the IndexedDB write queue a
 | **Vision-driven (build the coherent product)** | Produces a product with a spine rather than a feature pile; strong differentiation | Can drift far from what customers will pay for; expensive when the vision is wrong | Platform and category-defining bets, with a leadership team that will fund them for years |
 | **Engineering-driven (build what is technically interesting)** | High morale; occasionally produces genuine platform leverage | Value is accidental; hardest to defend when budgets tighten | Time-boxed enablement and platform work with an explicit efficiency case, never as the main roadmap |
 
-## Why This Still Matters Through 2030
-
-The cost of building is falling faster than the cost of being wrong about what to build. When an increment takes seven weeks instead of seven months, the penalty for skipping the discovery step does not shrink — it grows, because the organisation can now produce far more unused software per year than it could before. The scarce skill through 2030 is not the ability to implement the sync engine; it is the ability to establish, before anyone starts, that cash-only offline selling captures 85% of the value. That judgment is what product ownership contributes to a technical leader, and it does not automate.
-
 ---
 
 **Next:** [`07-shared-leadership-skills.md`](07-shared-leadership-skills.md) — making any of this land with people who do not write code.

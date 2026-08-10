@@ -211,8 +211,4 @@ groups:
 | **Tail-based sampling** (keep all errors + slow traces, sample the rest) | Retains the interesting traces at a fraction of the cost | Collector complexity; needs tuning | The right default for high-volume enterprise APIs |
 | **Unstructured logs, averages only** | — | Unqueryable; hides tail latency; the nine-day investigation above | Never |
 
-## Why This Still Matters Through 2030
-
-OpenTelemetry has become the industry's stable instrumentation contract, which means the investment you make in spans and structured events now survives every future change of observability vendor — a genuinely rare property in this part of the stack. Two pressures make it more valuable over time, not less. Distributed systems keep getting wider, so the number of hops between a user's click and a database call keeps growing, and only tracing follows that path. And operational-resilience regulation increasingly asks organisations to *demonstrate* detection and recovery times, which requires the telemetry to already exist at the moment of the incident. Instrumentation is the one form of technical work that must be done in advance, because there is no way to add it retroactively to something that has already happened.
-
 → Next: [08-documentation-baseline.md](08-documentation-baseline.md) · Related: [../01-core-concepts/07-observability-mindset.md](../01-core-concepts/07-observability-mindset.md) · [../01-core-concepts/06-performance-budget.md](../01-core-concepts/06-performance-budget.md)

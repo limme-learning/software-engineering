@@ -122,10 +122,6 @@ The insurance platform engineer, applying the roadmap against real work rather t
 | **Opportunistic (no plan, take what appears)** | Zero overhead to start | Produces the "anecdotes not evidence" failure mode from the opening scenario | Acceptable only as a fallback in orgs that structurally will not support a formal plan |
 | **Manager-led (org assigns each phase)** | Removes the burden of self-direction; institutionally legible | Depends entirely on the manager having a real framework, which most do not — hence this article existing | Large orgs with a genuine, staffed technical leadership development programme |
 
-## Why This Still Matters Through 2030
-
-Eighteen months is long enough that the specific tools inside Phase 1 will have shifted by the time Phase 6 arrives, and that is fine — the roadmap was never about the tools. It is about accumulating four kinds of trust in sequence: trust in your technical judgment, trust that your team improves under your lead, trust that your delivery commitments hold, and trust that your calls on what to build are worth funding. Those four kinds of trust do not get faster to earn as the underlying technology accelerates; if anything, an organisation moving faster needs someone holding all four more urgently, not less.
-
 ---
 
 **Next:** [`09-weekly-practice-system-and-metrics.md`](09-weekly-practice-system-and-metrics.md) — the cadence that sustains the roadmap week to week.

@@ -256,8 +256,4 @@ Two lines, four seconds, complete answer.
 | **Debug logging enabled in production** | Maximum detail when you need it | Cost, noise, and a PII exposure surface | Temporary, targeted, time-boxed — never a standing configuration |
 | **Unstructured string logs** | Fastest to write | Unqueryable at volume; the day-long reconstruction above | Never |
 
-## Why This Still Matters Through 2030
-
-The instrumentation you write is the one artifact that cannot be added retroactively — you can refactor code, replace a framework, or migrate a database after the fact, but you cannot observe a request that already failed. That asymmetry makes the habit permanent regardless of tooling. Two forces raise the stakes. Regulated workflows increasingly carry statutory clocks — dispute resolution windows, claims acknowledgement deadlines, data-subject request timelines — and a record silently stuck in a non-terminal state is a compliance breach accumulating quietly rather than an error someone will notice. And as systems grow more asynchronous and event-driven, more failures manifest as *nothing happening* rather than as an exception, which the entire error-centric monitoring tradition is structurally unable to detect. Meanwhile OpenTelemetry has stabilised the mechanics enough that the vendor question is largely settled; what remains is the judgment the tooling cannot supply — deciding, while the feature is being written, which fields and which state transitions someone will need at 3am.
-
 → Next: [08-technical-debt-tracking.md](08-technical-debt-tracking.md) · Related: [../00-project-setup-roadmap/07-observability.md](../00-project-setup-roadmap/07-observability.md) · [03-failure-modes-and-resilience.md](03-failure-modes-and-resilience.md)

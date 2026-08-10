@@ -224,8 +224,4 @@ Compliance officer on call if unresolved after 48 hours (the control-breach repo
 | **Docs generated from code comments only** | Zero drift, zero extra process | Cannot record rejected alternatives, which is often the most valuable part | Complements ADRs; does not replace them |
 | **Tribal knowledge** | No cost today | Leaves with the person; produced the eleven-day investigation above | Never — this is the failure mode, not a strategy |
 
-## Why This Still Matters Through 2030
-
-Two forces are pushing decision records from good practice toward requirement. Regulatory frameworks increasingly ask organisations to evidence *governed* change rather than merely correct outcomes — who decided, on what basis, and what was considered and rejected — and an ADR chain is the cheapest possible way to produce that. At the same time, an increasing share of code is written with AI assistance, which means the volume of code grows faster than the volume of remembered intent. Generated code encodes decisions without recording why they were made, so the "why" documentation becomes the scarce artifact and the differentiating one. Code will keep getting cheaper to produce; understanding why it is shaped this way will not.
-
 → Next: [09-code-review-process.md](09-code-review-process.md) · Related: [../03-architecture/06-choosing-the-right-architecture.md](../03-architecture/06-choosing-the-right-architecture.md) · [../04-security-and-authentication/06-compliance-standards-pci-dss-gdpr-soc2.md](../04-security-and-authentication/06-compliance-standards-pci-dss-gdpr-soc2.md)

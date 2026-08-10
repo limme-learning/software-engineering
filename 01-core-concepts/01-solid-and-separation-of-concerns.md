@@ -228,8 +228,4 @@ class PaymentInitiationTest {
 | **Interface for every class** | Uniform, looks disciplined | Indirection with no benefit; navigation cost; obscures which seams matter | Avoid — extract an interface when a second implementation or a test seam genuinely exists |
 | **One large orchestrating service** | Everything in one readable place, at first | Multiple reasons to change; the scenario above | Never above a few hundred lines |
 
-## Why This Still Matters Through 2030
-
-Dependency inversion is the principle that keeps paying as the surrounding technology churns. Frameworks, ORMs, message brokers, and cloud SDKs all have a shelf life measurably shorter than a bank's core systems — a domain that imports none of them survives their replacement, and one that imports all of them gets rewritten alongside them. That property is becoming more valuable, not less: the rate of change in infrastructure tooling is not slowing, and regulatory expectations increasingly require that business rules be inspectable and independently verifiable, which is only practical when they are separable from plumbing. There is also a newer benefit. When a large share of code is machine-generated, the interfaces are the part a human must get right — a well-named, single-purpose port is a precise specification that generation tools implement reliably, whereas a 1,900-line class with five entangled concerns is a context nobody, human or otherwise, reasons about correctly.
-
 → Next: [02-yagni-kiss-dry.md](02-yagni-kiss-dry.md) · Related: [../03-architecture/02-hexagonal-architecture.md](../03-architecture/02-hexagonal-architecture.md) · [../10-example-code/spring-boot/hexagonal-architecture-example.md](../10-example-code/spring-boot/hexagonal-architecture-example.md)
