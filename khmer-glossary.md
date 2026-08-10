@@ -117,14 +117,6 @@ sense — "run the migration" stays as `migration`), pull request / PR,
 mock / mocking, fixture, regression (test), N+1 (the query problem), RBAC,
 ABAC, CRUD, DTO, ORM, IDOR, runbook.
 
-**Git/version-control actions** (added while piloting `01-repo-and-branching.md`
-— these are said in English by Khmer engineers even mid-Khmer-sentence, and
-forcing a Khmer verb for them reads as translated-for-the-page rather than
-something anyone would actually say):
-branch, commit, merge, push, pull, squash merge, cherry-pick, bisect, tag,
-changelog, ticket (as in "ticket ID"), PR, CI, GitFlow, GitHub, CODEOWNERS,
-Conventional Commits, commitlint.
-
 **Rule of thumb for anything not listed here:** if a Cambodian engineer
 would say the English word out loud in an otherwise-Khmer sentence, it's
 Tier 2. If they'd naturally reach for a Khmer phrase, it's Tier 1. When
